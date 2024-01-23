@@ -1,0 +1,26 @@
+Through this workshop, I have learned four key points:
+
+1. Refactoring and Organizing Code: Initially, all functions were written in a single file, 
+making it overly lengthy and cluttered. Through categorization based on the purpose of functions,
+I managed to improve the structure. For instance, functions related to charts were placed in
+graph.cpp, input-output functions in io.cpp, and those related to file handling in file.cpp.
+This not only enhanced my efficiency in locating reusable modules but also made the code more
+organized and tidy.
+
+2. Application of Header File Guards: Previously, I hadn't encountered the concept of header file
+guards in C. Through the teacher's lecture and practical implementation in this workshop, I gained
+a deeper understanding. Header file guards are a protective mechanism against the repeated inclusion
+of libraries. 
+
+3. Use of Namespaces: This was quite interesting. Initially, I didn't include my code within the
+seneca namespace in StMarks.cpp, leading to undefined module errors. After revisiting the readme
+specifications, I realized that adding the namespace resolved the issue. Furthermore, the teacher's
+explanation in today's class deepened my understanding of namespaces. In C++, namespaces are used to
+avoid name collisions and to organize code in a manageable way, which I found incredibly beneficial.
+
+4. Learning How to Read and Modify Others' Code: In previous workshops, I mostly wrote functions on 
+my own. This time, however, I had to first read and understand how the code was used in other projects,
+and then think about how to apply those concepts and methods to my own work. This process required a 
+different skill set, including a deeper level of comprehension and the ability to adapt existing code
+to new requirements. It was a challenging but rewarding experience that helped me improve my coding 
+versatility and problem-solving skills.

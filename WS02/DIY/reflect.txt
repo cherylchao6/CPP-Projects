@@ -1,0 +1,18 @@
+
+  What I learned the most during this workshop is definitely DMA (Dynamic Memory Allocation).
+At the beginning of the course, I had some difficulty grasping the concept, but when I actually
+started writing code that involved DMA, I realized the importance of following the correct steps
+when using pointers and how to dynamically allocate memory. Now, I am more proficient in 
+understanding that I should initialize pointers as nullptr before using them. I also learned that
+the 'new' operator returns an address, and it allocates memory based on the data type.
+
+  During the assignment submission, I spent a considerable amount of time debugging to identify
+any memory leaks. This helped me understand the importance of memory management and how to 
+deallocate memory properly to avoid issues. Additionally, I learned about the process of designing
+a small project, from setting up data structures to printing data, and finally deallocating memory.
+
+  Furthermore, I gained a deeper understanding of how to correctly use the '&' operator for 
+addresses. Overall, this workshop has been a valuable learning experience, and I feel more 
+confident in my ability to work with dynamic memory allocation in C++.
+
+  These concepts will undoubtedly be helpful in my future programming endeavors.

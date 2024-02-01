@@ -1,0 +1,76 @@
+Script started, file is student_output.txt
+==47676== Memcheck, a memory error detector
+==47676== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==47676== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==47676== Command: ws
+==47676== 
+bool read(int& value, FILE* fptr) test passed
+bool read(double& value, FILE* fptr) test passed
+bool read(double& value, FILE* fptr) test passed
+==47676== Conditional jump or move depends on uninitialised value(s)
+==47676==    at 0x4C2B4D0: operator delete(void*) (vg_replace_malloc.c:586)
+==47676==    by 0x400CDB: seneca::read(seneca::Assessment&, _IO_FILE*) (Assessment.cpp:50)
+==47676==    by 0x400E2C: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:73)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676==  Uninitialised value was created by a heap allocation
+==47676==    at 0x4C2AC38: operator new[](unsigned long) (vg_replace_malloc.c:433)
+==47676==    by 0x400DF9: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:71)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676== 
+==47676== Conditional jump or move depends on uninitialised value(s)
+==47676==    at 0x400CE7: seneca::read(seneca::Assessment&, _IO_FILE*) (Assessment.cpp:51)
+==47676==    by 0x400E2C: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:73)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676==  Uninitialised value was created by a heap allocation
+==47676==    at 0x4C2AC38: operator new[](unsigned long) (vg_replace_malloc.c:433)
+==47676==    by 0x400DF9: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:71)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676== 
+File records and number of records do not match!
+Listing Good Data:
+1: Applied Problem Solving: 70.9
+2: Computer Principles for Programmers: 55.5
+3: Communicating Across Contexts : 63.8
+4: Introduction to Programming Using C: 88.0
+5: Introduction to UNIX/Linux and the Internet: 78.9
+6: Introduction to Database Systems: 98.0
+7: Data Communications Fundamentals: 100.0
+8: Introduction to Object Oriented Programming: 83.3
+9: Web Programming Principles: 50.0
+10: Advanced Database Services: 77.2
+11: Object-Oriented Software Development Using C++: 85.5
+12: Software Analysis and Design - I: 90.0
+13: Web Programming Tools and Framework: 95.0
+==47676== 
+==47676== HEAP SUMMARY:
+==47676==     in use at exit: 0 bytes in 0 blocks
+==47676==   total heap usage: 58 allocs, 58 frees, 75,982 bytes allocated
+==47676== 
+==47676== All heap blocks were freed -- no leaks are possible
+==47676== 
+==47676== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==47676== 
+==47676== 1 errors in context 1 of 2:
+==47676== Conditional jump or move depends on uninitialised value(s)
+==47676==    at 0x400CE7: seneca::read(seneca::Assessment&, _IO_FILE*) (Assessment.cpp:51)
+==47676==    by 0x400E2C: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:73)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676==  Uninitialised value was created by a heap allocation
+==47676==    at 0x4C2AC38: operator new[](unsigned long) (vg_replace_malloc.c:433)
+==47676==    by 0x400DF9: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:71)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676== 
+==47676== 
+==47676== 1 errors in context 2 of 2:
+==47676== Conditional jump or move depends on uninitialised value(s)
+==47676==    at 0x4C2B4D0: operator delete(void*) (vg_replace_malloc.c:586)
+==47676==    by 0x400CDB: seneca::read(seneca::Assessment&, _IO_FILE*) (Assessment.cpp:50)
+==47676==    by 0x400E2C: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:73)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676==  Uninitialised value was created by a heap allocation
+==47676==    at 0x4C2AC38: operator new[](unsigned long) (vg_replace_malloc.c:433)
+==47676==    by 0x400DF9: seneca::read(seneca::Assessment*&, _IO_FILE*) (Assessment.cpp:71)
+==47676==    by 0x400EAD: main (main_prof.cpp:33)
+==47676== 
+==47676== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+Script done, file is student_output.txt

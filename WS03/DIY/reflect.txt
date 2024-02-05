@@ -1,0 +1,26 @@
+In this workshop, I have primarily learned the following key concepts:
+
+  Constructing Classes and Understanding Class Properties: Previously, I was more accustomed 
+to writing structs. However, through this workshop, I have become more proficient in building
+classes from scratch. During the process, I even attempted to write my own constructor (icecream),
+which I found to be remarkably convenient. Using a constructor eliminates the need for a separate 
+"setEmpty()" function, and it ensures that every member inside the class has initial values upon 
+creation. Additionally, I realized the significance of moving some member functions to the public
+section when designing a class, which has deepened my understanding of how to decide which members
+should be public and which should be private.
+
+  Designing the Basic Structure of a Class: I now understand that when designing a class, it 
+typically includes functions for setting values (set), getting values (get), setting to an empty
+state (setEmpty), and, if dynamic memory allocation (DMA) is involved, a deallocate function to 
+prevent memory leaks. The lab exercises provided valuable hands-on experience and guided me in 
+completing my own DIY projects.
+
+  Print Formatting: I spent a considerable amount of time contemplating how to format the order
+summary output. Especially challenging was understanding how "cout.width" affects the next "cout"
+statement, and ensuring that I unset the formatting after each line is printed. Now, I have a more
+comprehensive understanding of how to format my data effectively.
+
+  In summary, this workshop has enhanced my skills in class construction, taught me essential class
+design principles, and improved my ability to format and present data accurately. These newfound 
+insights will undoubtedly benefit me in my future programming endeavors.
+

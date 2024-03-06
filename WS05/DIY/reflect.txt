@@ -1,0 +1,27 @@
+  In this workshop, I gained significant insights into operator overloading, which proved to 
+be more complex yet fascinating than initially perceived. Understanding the concept of class 
+operator overloading was challenging at first. It appeared daunting when introduced by the 
+instructor, but with the aid of lecture notes and dedicated practice, the complexities of unary
+and binary member operators began to unravel. Unary operator functions are implicit, as the left
+operand is inherently the object itself, whereas binary member operators require an additional 
+parameter to represent the right operand. This distinction clarified how operators function within
+the context of object-oriented programming. Moreover, observing their implementation in main.cpp
+was instrumental in comprehending the types of parameters necessary for operator functions, 
+enhancing my practical understanding of their application.
+
+  Additionally, the workshop illuminated the utility of helper functions. Initially, the criteria 
+for relegating functions to helper status were ambiguous. However, the workshop sessions clarified
+that when aiming to support cases where the left operand does not belong to the class or when the 
+functionality is unrelated to the class's core responsibilities—merely computational logic—
+designating such functions as global helper functions is judicious. This approach prevents the 
+unnecessary expansion of class definitions with member functions that could otherwise consume 
+memory inefficiently. Through these sessions, I learned the strategic value of helper functions 
+in maintaining lean, efficient class structures, thereby optimizing memory usage and enhancing 
+code readability and maintainability. This experience not only deepened my understanding of 
+operator overloading and the effective use of helper functions but also sharpened my ability 
+to discern when and how to apply these concepts to produce cleaner, more efficient code.
+
+
+
+
+

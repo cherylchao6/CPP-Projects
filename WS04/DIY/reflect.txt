@@ -1,0 +1,35 @@
+/* Professor, I mentioned in the class to you that I missed the instruction that I should put 
+my information and the declation at each files for the previous workshops. You said that I just
+mentioned here to remind you. I am really really sorry. I would add them in the future workshops!*/
+  
+  In this workshop, I gained substantial insights into the design of classes, which can be 
+summarized into three main areas:
+
+  Design of Constructors and Destructors: Previously, I was somewhat puzzled about what exactly
+should be accomplished within constructors and destructors. This assignment has deepened my 
+understanding of how overloaded constructors enhance the flexibility of program use. By designing
+constructors to meet different requirements, one can create an instance tailored to specific needs.
+The concept of constructor overloading has shown me the importance of adaptable object 
+initialization in object-oriented programming.
+
+  Design of Query Functions: I found this aspect particularly enlightening. During the lab session,
+when my Fridge class attempted to access members of the Food class, the code did not permit it due
+to the encapsulation of member variables as private. Initially, I simply changed the member variables
+to public and submitted the assignment. However, after reading the lecture notes and with the 
+professor emphasizing this point in class, I realized such design was fundamentally flawed. 
+Therefore, in the DIY part of the workshop, when the Guitar class needed to access private member
+variables of the GuitarStr class, I introduced query functions in the GuitarStr class. This approach
+aligns with the principles of encapsulation, ensuring that the integrity and the encapsulation of 
+objects are maintained.
+
+  Application of ostream: Utilizing the standard ostream and defining one's own print functions to 
+return an ostream was initially an abstract concept for me. However, after implementing it myself,
+I gained a clearer understanding. This practice taught me how to effectively use output streams for
+displaying object states, thereby enhancing the interface through which objects interact with the 
+external environment. It underscores the significance of stream manipulation in C++, facilitating 
+custom output that integrates seamlessly with C++'s input/output system.
+
+  Overall, the workshop was immensely beneficial in advancing my comprehension of class design, 
+encapsulation, and the practical use of constructors, destructors, and C++'s input/output stream
+capabilities. These concepts are crucial for developing robust, flexible, and maintainable 
+object-oriented applications.

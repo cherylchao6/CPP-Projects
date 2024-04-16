@@ -1,0 +1,31 @@
+{
+  "files.associations": {
+    "cstring": "cpp",
+    "iosfwd": "cpp",
+    "new": "cpp",
+    "__bit_reference": "cpp",
+    "__hash_table": "cpp",
+    "__mutex_base": "cpp",
+    "__node_handle": "cpp",
+    "__tuple": "cpp",
+    "atomic": "cpp",
+    "complex": "cpp",
+    "iterator": "cpp",
+    "memory_resource": "cpp",
+    "istream": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "sstream": "cpp",
+    "streambuf": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "unordered_map": "cpp",
+    "variant": "cpp",
+    "vector": "cpp",
+    "iostream": "cpp",
+    "__config": "cpp",
+    "__nullptr": "cpp"
+  }
+}

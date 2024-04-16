@@ -1,0 +1,18 @@
+  In Workshop 10, I had the opportunity to deepen my understanding of function templates in C++. 
+The core task was to code a standard-layout class template and two function templates. 
+This exercise provided me with hands-on experience in coding a simple struct as a template, which was
+a significant learning curve for me. I also learned how to create and utilize function templates 
+effectively.
+
+  Function templates are powerful tools in C++, allowing for more flexible and error-free code. By 
+coding function templates, I was able to write a single function that could operate on different data 
+types, which is immensely beneficial in reducing code redundancy and improving code maintenance. 
+Additionally, practicing calls to these templates helped reinforce my understanding of how templates 
+can be applied in real-world scenarios.
+
+  One of the most insightful parts of this workshop was reflecting on what I learned during the coding 
+process. It encouraged me to think critically about my coding choices and their impacts. Through this 
+reflection, I've come to appreciate the efficiency and flexibility that templates bring to C++ 
+programming. Overall, this workshop has not only enhanced my technical skills but also my ability 
+to articulate the processes and outcomes of my coding experiences.
+

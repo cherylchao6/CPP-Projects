@@ -1,0 +1,19 @@
+  Through the workshop and milestone 4, I delved deep into the intricacies of C++ programming, 
+focusing on advanced concepts such as the rule of three, inheritance, and polymorphism. The most 
+enlightening part for me was applying the rule of three, which emphasizes the need for a class to 
+explicitly define a copy constructor, a copy assignment operator, and a destructor when it manages 
+resources that require deep copying, like dynamic memory allocation.
+
+  In practice, implementing the rule of three allowed me to understand the critical importance of 
+managing resources efficiently to prevent memory leaks and ensure deep copies of objects are made safely.
+By crafting these functions manually, I gained a nuanced understanding of how objects are copied and 
+destroyed, especially in complex class hierarchies involving derived classes. This knowledge was pivotal
+in avoiding common pitfalls associated with default implementations provided by the compiler, which often
+lead to shallow copies and resource mismanagement.
+
+  Moreover, integrating these concepts with inheritance and polymorphism opened new avenues for reusing 
+functionality efficiently across parent and child classes, allowing for dynamic behavior and polymorphic
+interfaces. This synergy between the rule of three and object-oriented principles like inheritance and 
+polymorphism significantly enhanced my ability to write robust, maintainable, and efficient code. The 
+workshop not only solidified my understanding of these fundamental concepts but also highlighted their 
+practical implications in real-world software development scenarios.

@@ -1,0 +1,20 @@
+  Reflecting on my journey through WS06 and MS1, I've garnered a deeper appreciation for the nuanced
+aspects of C++ programming, particularly in managing object lifecycles and access controls. Learning
+about copy constructors and copy assignment operators was enlightening; I now understand their 
+critical role in ensuring that each object's resources are uniquely managed, thereby preventing 
+unintended side effects and resource leaks. This insight has fundamentally changed how I approach
+class design, especially for resource-intensive applications.
+
+  Moreover, the concept of preventing copying and assignment was a revelation. By making the copy
+constructor and copy assignment operator private or deleting them, I've learned to safeguard my 
+classes against unwanted duplications, ensuring the integrity and uniqueness of each instance. 
+This strategy has been instrumental in designing more secure and robust applications.
+
+  Lastly, the introduction to friend classes opened my eyes to the delicate balance between 
+encapsulation and necessary access. Understanding when and why to grant another class access to 
+private members has equipped me with the ability to design more efficient and cohesive systems, 
+where classes can interact intimately without exposing their internals indiscriminately.
+
+  These lessons have been pivotal in refining my approach to object-oriented programming, 
+highlighting the importance of deliberate design choices in crafting maintainable and efficient 
+C++ applications.

@@ -1,0 +1,27 @@
+  Reflecting on the recent workshop, I find myself appreciating the depth and complexity of 
+object-oriented programming more than ever. Delving into the inheritance paradigm has sharpened my
+understanding of class hierarchies. By inheriting a derived class from a base class, I’ve learned 
+how to craft robust and scalable code architectures. This practice not only promotes code reuse but
+also enhances maintainability.
+
+  Shadowing a base class member function with a derived class member function was particularly 
+intriguing. It presented a clear demonstration of how a subclass can customize its behavior while 
+still retaining a link to its superclass. It's a powerful concept that, if not used judiciously, 
+can lead to confusion but, when implemented correctly, leads to elegant solutions.
+
+  Accessing a shadowed member function in the base class turned out to be a compelling study of scope
+and visibility within class structures. It shed light on the importance of understanding the 'this' 
+pointer and underscored how the explicit use of class names can control which version of a function 
+is executed.
+
+  This workshop has not only bolstered my technical knowledge but also challenged me to think 
+critically about design decisions. It has emphasized the delicate interplay between base and 
+derived classes and how this relationship can be harnessed to create flexible and powerful software
+systems. The insights gained here will undoubtedly be instrumental in my growth as a software developer.
+
+
+
+
+
+
+

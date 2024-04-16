@@ -1,0 +1,21 @@
+  Upon successful completion of this workshop, I have acquired a proficient understanding of 
+fundamental concepts in object-oriented programming. I have demonstrated the ability to define a 
+pure virtual function, a crucial aspect of polymorphism in C++. By coding an abstract base class, 
+I have comprehended the importance of abstraction in software design, allowing for the creation of 
+generalized structures with defined interfaces.
+
+  Furthermore, I have successfully implemented behavior declared in a pure virtual function, 
+showcasing my ability to provide concrete functionality to abstract concepts. Through this process, 
+I have gained insight into the practical application of inheritance and polymorphism, key principles
+in object-oriented programming.
+
+  Additionally, I have grasped the distinction between an abstract base class and a concrete class. 
+While abstract base classes provide a blueprint for derived classes and cannot be instantiated on 
+their own, concrete classes represent tangible objects that can be instantiated. Understanding this 
+difference is essential for designing robust and scalable object-oriented systems.
+
+  In conclusion, this workshop has provided me with valuable knowledge and skills in object-oriented
+programming. By mastering the concepts of pure virtual functions, abstract base classes, and their 
+practical implementations, I am better equipped to design and develop efficient and maintainable 
+software solutions. Through reflection on this workshop, I have gained a deeper understanding of 
+object-oriented programming principles and their significance in software development.

@@ -1,4 +1,4 @@
-# Each Workshop I demonstrate my ability to:
+# Each Workshop I Demonstrate My Ability to:
 ### Workshop 1 (WS1):
 - Organize source code into modules, using header and implementation files.
 - Compile and link modular programs.
